@@ -11,7 +11,11 @@ export default function Header() {
                     </Link>
                 </li>
                 <li>
-                    <Link className={styles.item} href="/blog">
+                    <Link
+                        className={styles.item}
+                        href="/blog"
+                        passHref
+                    >
                         Blog
                     </Link>
                 </li>

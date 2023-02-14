@@ -8,7 +8,7 @@ interface Post {
 }
 
 interface BlogProps {
-    dataBlog: Post[]
+    dataBlog: Post[];
 }
 
 export default function blog(props: BlogProps) {
